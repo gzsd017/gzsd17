@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 316
+  Height = 360
+  Top = 180
+  Width = 536
+  Caption = 'Form1'
+  ClientHeight = 360
+  ClientWidth = 536
+  DesignTimePPI = 120
+  LCLVersion = '2.2.4.0'
+  object Memo1: TMemo
+    Left = 16
+    Height = 160
+    Top = 16
+    Width = 512
+    OnChange = Memo1Change
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 267
+    Height = 28
+    Top = 207
+    Width = 100
+    OnChange = Edit1Change
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 267
+    Height = 28
+    Top = 248
+    Width = 100
+    OnChange = Edit2Change
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 184
+    Height = 20
+    Top = 207
+    Width = 44
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 184
+    Height = 20
+    Top = 248
+    Width = 44
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 369
+    Height = 38
+    Top = 307
+    Width = 94
+    Caption = 'BitBtn1'
+    OnClick = BitBtn1Click
+    TabOrder = 3
+  end
+end
